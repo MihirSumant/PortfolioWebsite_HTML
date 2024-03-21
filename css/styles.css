@@ -1,0 +1,376 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+section{
+    border: 1px solid black;
+    
+}
+
+.header{
+    font-size: large;
+    background-color: #add8e6;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.home-section{
+    font-family: 'Open Sans';
+    padding-top: 60px;
+    background-color: rgb(65, 81, 161);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.home-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.home-text-container h3{
+    font-size: 85px;
+}
+
+.skills-section{
+    font-family: 'Open Sans';
+    padding: 100px 0px;  
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-header{
+    padding: 40px;
+    padding-bottom: 0px;
+}
+
+.skills-header h3{
+    font-size: 65px;
+    padding: 10px;
+}
+
+.skills-description{
+    padding: 50px;
+    line-height: 25px;
+}
+
+.skills-table{
+    padding: 40px;
+}
+
+.logo-grid-row{
+    display: flex;
+
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.label{
+    width: 100%;
+    padding: 0 60px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+#mjml{
+    padding-bottom: 23.13px;
+}
+
+#figma-box{
+    justify-content: flex-start;
+}
+
+#sass-box{
+    justify-content: flex-start;   
+}
+
+.logo-name{
+    line-height: normal;
+    text-align: center;
+}
+
+
+.fa-brands{
+    width: 30px;
+}
+
+.about-section{
+    font-family: 'Open Sans';
+    padding: 100px 0px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-header{
+    padding: 40px;
+    padding-bottom: 0px;
+}
+
+.about-header h3{
+    font-size: 65px;
+    padding: 10px;
+}
+
+.about-description{
+    padding: 50px;
+    line-height: 25px;
+}
+
+.button-row {
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.button-row img{
+    height: 46px;
+}
+
+.resume-button{
+    padding: 16px 50px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.linkedin-button {
+    padding: 0px 20px;
+}
+
+.about-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-frame{
+    padding: 65px;
+    width: 500px;
+    height: 700px;
+    
+}
+
+.photo-frame img{
+    background-color: #D9D9D9;
+    border: black 1px solid;
+    padding: 25px;
+}
+
+.portfolio-section{
+    font-family: 'Open Sans';
+    padding: 100px 0px;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.portfolio-header{
+    padding: 40px;
+    padding-left: 160px;
+    
+}
+
+.portfolio-header h3{
+    font-size: 65px;
+    padding: 10px;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px;
+    padding-top: 0px;
+}
+
+.portfolio-grid-row {
+    display: flex;
+    
+}
+
+.portfolio-gird-item {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    padding: 25px;
+}
+
+.portfolio-gird-item img{
+    width: 400px;
+    
+    border: 1px black solid;
+}
+
+.portfolio-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(242, 244, 240);
+    width: 400px;
+}
+
+.portfolio-links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 300px;
+}
+
+.portfolio-buttons {
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+.portfolio-buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-section {
+    padding: 100px 0px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-header{
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+.contact-text{
+    padding: 40px;
+    line-height: 25px;
+}
+
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contact-header h3{
+    font-size: 50px;
+    padding: 10px;
+}
+
+.contact-right{
+    width: 600px;
+    padding: 45px 0px;
+}
+
+.contact-right input{
+    width: 600px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.contact-right textarea{
+    width: 600px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.contact-right button{
+    width: 150px;
+    padding: 6px;
+    border-radius: 30px;
+    border: black 1px solid;
+}
+
+.footer{
+    font-size: large;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.footer-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links{
+    padding-bottom: 10px;
+}
+
+.footer-text{
+    font-size: medium;
+    text-align: center;
+}
