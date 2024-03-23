@@ -3,7 +3,8 @@
 }
 
 section{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -36,7 +37,8 @@ section{
 .home-section{
     font-family: 'Open Sans';
     padding-top: 60px;
-    background-color: rgb(65, 81, 161);
+    /* background-color: rgb(65, 81, 161); */
+    background-image: url(../assets/img/pawel-czerwinski-obhi-sWUc5E-unsplash.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,6 +141,8 @@ section{
 .about-section{
     font-family: 'Open Sans';
     padding: 100px 0px;
+    /* background-color: #e2fbff; */
+    background-image: url(../assets/img/debora-pilati-dOG0z4-gqp0-unsplash.jpg);
 }
 
 .about-container{
@@ -210,6 +214,7 @@ section{
 .portfolio-section{
     font-family: 'Open Sans';
     padding: 100px 0px;
+    height: auto;
 }
 
 .portfolio-container{
@@ -282,7 +287,7 @@ section{
     background-color: #D9D9D9;
     padding: 10px;
     border-radius: 30px;
-    
+
 }
 
 .portfolio-buttons a{
@@ -292,6 +297,8 @@ section{
 
 .contact-section {
     padding: 100px 0px;
+    height: 100vh;
+    background-image: url(../assets/img/scott-webb-OxHPDs4WV8Y-unsplash.jpg);
 }
 
 .contact-container{
