@@ -214,7 +214,7 @@ section{
 .portfolio-section{
     font-family: 'Open Sans';
     padding: 100px 0px;
-    height: auto;
+    height: 100vh;
 }
 
 .portfolio-container{
