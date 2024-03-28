@@ -34,6 +34,10 @@ section{
     color: black;
 }
 
+.header-menu a:hover{
+    text-decoration: underline;
+}
+
 .home-section{
     font-family: 'Open Sans';
     padding-top: 60px;
@@ -188,6 +192,9 @@ section{
     color: black;
 }
 
+.resume-button:hover{
+    background-color: #76ABDF;
+}
 
 .linkedin-button {
     padding: 0px 20px;
@@ -295,6 +302,10 @@ section{
     color: black;
 }
 
+.portfolio-buttons:hover {
+    background-color: #76ABDF;
+}
+
 .contact-section {
     padding: 100px 0px;
     height: 100vh;
@@ -358,6 +369,10 @@ section{
     padding: 6px;
     border-radius: 30px;
     border: black 1px solid;
+}
+
+.contact-right button:hover{
+    background-color: #76ABDF;
 }
 
 .footer{
