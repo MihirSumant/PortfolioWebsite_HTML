@@ -396,3 +396,79 @@ section{
     font-size: medium;
     text-align: center;
 }
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark){
+    *{
+    color: black;
+    }
+
+    .skills-section {
+        background-color: white;
+    }
+
+    .portfolio-section {
+        background-color: white;
+    }
+
+    .resume-button {
+        filter: invert(100%);
+        background-color: #D9D9D9;
+    }
+
+    .linkedin-button{
+        filter: invert(100%);
+    }
+    
+    .github-button{
+        filter: invert(100%);
+    }
+
+    button{
+        filter: invert(100%);
+    }
+}
+
+/* Phone layout */
+@media (max-width: 600px) {
+    .header{
+        display: none;
+    }
+
+    .home-section{
+        
+        font-family: 'Open Sans';
+        padding-top: 60px;
+        /* background-color: rgb(65, 81, 161); */
+        background-image: url(../assets/img/pawel-czerwinski-obhi-sWUc5E-unsplash.jpg);
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .home-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+    }
+    
+    .home-text-container h3{
+        font-size: 55px;
+    }
+
+    .home-textblock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .home-textblock p{
+        text-align: left;
+    }    
+}
+
+/* Tablet layout */
