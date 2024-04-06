@@ -68,6 +68,7 @@ section{
 .skills-container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .skills-left{
@@ -147,10 +148,14 @@ section{
     padding: 100px 0px;
     /* background-color: #e2fbff; */
     background-image: url(../assets/img/ikhlas-rahman-eqL82KY9DJE-unsplash.jpg);
+    min-height: 100vh;
+    max-height: 1148px;
+    height: fit-content;
 }
 
 .about-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -221,7 +226,9 @@ section{
 .portfolio-section{
     font-family: 'Open Sans';
     padding: 100px 0px;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 200vh;
+    height: fit-content;
 }
 
 .portfolio-container{
@@ -252,6 +259,7 @@ section{
 
 .portfolio-grid-row {
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -308,21 +316,21 @@ section{
 
 .contact-section {
     padding: 100px 0px;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 110vh;
+    height: fit-content;
     background-image: url(../assets/img/ikhlas-rahman-Dw7tPLBK13c-unsplash.jpg);
 }
 
 .contact-container{
     display: flex;
     justify-content: space-evenly;
-    
-    
+    flex-wrap: wrap;
 }
 
 .contact-left{
     display: flex;
     flex-direction: column;
-    
 }
 
 .contact-header{
@@ -489,7 +497,7 @@ section{
     }
     
     .about-section{
-        height: 125vh;
+        height: 1148px;
         padding: 25px 0px;
     }
 
@@ -521,6 +529,27 @@ section{
     }
     .portfolio-grid-row{
         flex-direction: column;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-form{
+        padding: 0px 30px;
+        align-self: flex-start;
+    }
+
+    .contact-right input{
+        width: 350px;
+    }
+
+    .contact-right textarea{
+        width: 350px;
+    }
+
+    .footer{
+        width: 100vw;
     }
 }
 
