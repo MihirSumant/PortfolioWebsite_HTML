@@ -3,7 +3,7 @@
 }
 
 section{
-    /* border: 1px solid black; */
+    /* border: 1px solid black;  */
     font-family: 'Open Sans', sans-serif;
     
 }
@@ -441,6 +441,7 @@ section{
 @media (max-width: 600px) {
     .header{
         width: 100vw;
+        overflow: hidden;
     }
 
     .header-menu{
@@ -449,6 +450,7 @@ section{
 
     section{
         width: 100vw;
+        overflow: hidden;
     }
     .home-section{
         
@@ -533,6 +535,7 @@ section{
 
     .contact-container{
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .contact-form{
@@ -550,7 +553,11 @@ section{
 
     .footer{
         width: 100vw;
+        overflow: hidden;
     }
 }
+
+/*Small Phone layout */
+
 
 /* Tablet layout */
