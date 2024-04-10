@@ -42,11 +42,13 @@ section{
     font-family: 'Open Sans';
     padding-top: 60px;
     /* background-color: rgb(65, 81, 161); */
-    background-image: url(../assets/img/pawel-czerwinski-obhi-sWUc5E-unsplash.jpg);
+    background-image: url(../assets/img/pawel-czerwinski-obhi-sWUc5E-unsplash-huge.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    height: fit-content;
+    max-height: 1600px;
 }
 
 .home-text-container {
@@ -147,7 +149,7 @@ section{
     font-family: 'Open Sans';
     padding: 100px 0px;
     /* background-color: #e2fbff; */
-    background-image: url(../assets/img/ikhlas-rahman-eqL82KY9DJE-unsplash.jpg);
+    background-image: url(../assets/img/ikhlas-rahman-eqL82KY9DJE-unsplash-huge.jpg);
     min-height: 100vh;
     max-height: 1148px;
     height: fit-content;
@@ -228,7 +230,6 @@ section{
     font-family: 'Open Sans';
     padding: 100px 0px;
     min-height: 100vh;
-    max-height: 200vh;
     height: fit-content;
 }
 
@@ -254,7 +255,6 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 65px;
     padding-top: 0px;
 }
 
@@ -320,7 +320,7 @@ section{
     min-height: 100vh;
     max-height: 160vh;
     height: fit-content;
-    background-image: url(../assets/img/ikhlas-rahman-Dw7tPLBK13c-unsplash.jpg);
+    background-image: url(../assets/img/ikhlas-rahman-Dw7tPLBK13c-unsplash-huge.jpg);
 }
 
 .contact-container{
@@ -406,38 +406,6 @@ section{
     text-align: center;
 }
 
-/* Dark Mode 
-@media (prefers-color-scheme: dark) {
-    *{
-    color: black;
-    }
-
-    .skills-section {
-        background-color: white;
-    }
-
-    .portfolio-section {
-        background-color: white;
-    }
-
-    .resume-button {
-        filter: invert(100%);
-        background-color: #D9D9D9;
-    }
-
-    .linkedin-button{
-        filter: invert(100%);
-    }
-    
-    .github-button{
-        filter: invert(100%);
-    }
-
-    button{
-        filter: invert(100%);
-    }
-}
-*/
 /* Phone layout */
 @media (max-width: 600px) {
 
@@ -533,6 +501,11 @@ section{
     .portfolio-header{
         padding: 40px;
     }
+
+    .portfolio-grid{
+        padding: 65px;
+    }
+
     .portfolio-grid-row{
         flex-direction: column;
     }
@@ -615,5 +588,3 @@ section{
         max-width: 300px;
     }
 }
-
-/* Tablet layout */
