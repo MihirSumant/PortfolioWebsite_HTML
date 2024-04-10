@@ -218,9 +218,10 @@ section{
 }
 
 .photo-frame img{
-    background-color: #D9D9D9;
+    background-color: white;
     border: black 1px solid;
-    padding: 25px;
+    padding: 15px;
+    width: 400px;
 }
 
 .portfolio-section{
@@ -522,7 +523,7 @@ section{
     .photo-frame img{
         padding: 10px;
         max-width: 400px;
-        height: 100%;
+        width: 100%;
     }
 
     .portfolio-section {
