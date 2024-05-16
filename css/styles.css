@@ -43,6 +43,7 @@ section{
     padding-top: 60px;
     /* background-color: rgb(65, 81, 161); */
     background-image: url(../assets/img/pawel-czerwinski-obhi-sWUc5E-unsplash-huge.jpg);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,6 +151,7 @@ section{
     padding: 100px 0px;
     /* background-color: #e2fbff; */
     background-image: url(../assets/img/ikhlas-rahman-eqL82KY9DJE-unsplash-huge.jpg);
+    background-size: cover;
     min-height: 100vh;
     max-height: 1148px;
     height: fit-content;
@@ -321,6 +323,7 @@ section{
     max-height: 160vh;
     height: fit-content;
     background-image: url(../assets/img/ikhlas-rahman-Dw7tPLBK13c-unsplash-huge.jpg);
+    background-size: cover;
 }
 
 .contact-container{
