@@ -2,6 +2,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 section{
     /* border: 1px solid black;  */
     font-family: 'Open Sans', sans-serif;
@@ -409,12 +413,26 @@ section{
     text-align: center;
 }
 
+@media (max-width: 2560px) {
+    .portfolio-header {
+        padding-left: 530px;
+    }    
+}
+
+@media (max-width: 1440px) {
+    .portfolio-header {
+        padding-left: 90px;
+    }    
+}
+
+@media (max-width: 768px) {
+    .portfolio-header {
+        padding-left: 100px;
+    }    
+}
+
 /* Phone layout */
 @media (max-width: 600px) {
-
-    body{
-        overflow-x: hidden;
-    }
 
     .header{
         width: 100vw;
@@ -590,4 +608,25 @@ section{
     .photo-frame img{
         max-width: 300px;
     }
+}
+
+@media (max-width: 320px) {
+    
+    .home-text-container{
+        padding: 50px;
+    }
+
+    .logo-img{
+        width: 80px;
+    }
+
+    .button-row{
+        padding: 0px 10px;
+    }
+
+    .portfolio-header h3{
+        font-size: 50px;
+    }
+
+
 }
